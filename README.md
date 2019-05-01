@@ -6,6 +6,7 @@ pip install -UI onepanel
 ```
 
 **USAGE**  
+```
 Options:  
   --version  Show the version and exit.  
   --help     Show this message and exit.
@@ -23,7 +24,8 @@ Commands:
   pull           Pull changes from onepanel (fetch and merge)  
   push           Push changes to onepanel  
   volume-types   Available volume types  
-  workspaces     Workspace commands group  
+  workspaces     Workspace commands group
+ ```
 
 **LOGIN**  
 after installation, users should log in with valid credentials first via email and password
