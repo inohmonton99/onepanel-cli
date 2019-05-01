@@ -80,6 +80,7 @@ Commands:
 ```
 Commands:
   list  Show available environments
+  
 Output:
 ID                              ENVIRONMENT
 jupyter-py3-tensorflow1.11.0    Python 3, TensorFlow 1.11.0, Jupyter 5.6.0
