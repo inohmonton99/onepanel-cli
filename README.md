@@ -5,28 +5,25 @@
 pip install -UI onepanel
 ```
 
-**USAGE**
-onepanel --help
-Usage: onepanel [OPTIONS] COMMAND [ARGS]...
-
-Options:
-  --version  Show the version and exit.
+**USAGE**  
+Options:  
+  --version  Show the version and exit.  
   --help     Show this message and exit.
 
-Commands:
-  clone          Clone project or dataset from server.
-  datasets       Dataset commands group
-  download       Download a dataset
-  environments   Environment (machine types) commands group
-  jobs           Job commands group
-  login          Login with email and password.
-  logout         Logs the current user out.
-  machine-types  Machine (hardware) commands group
-  projects       Project commands group
-  pull           Pull changes from onepanel (fetch and merge)
-  push           Push changes to onepanel
-  volume-types   Available volume types
-  workspaces     Workspace commands group
+Commands:  
+  clone          Clone project or dataset from server.  
+  datasets       Dataset commands group  
+  download       Download a dataset  
+  environments   Environment (machine types) commands group  
+  jobs           Job commands group  
+  login          Login with email and password.  
+  logout         Logs the current user out.  
+  machine-types  Machine (hardware) commands group  
+  projects       Project commands group  
+  pull           Pull changes from onepanel (fetch and merge)  
+  push           Push changes to onepanel  
+  volume-types   Available volume types  
+  workspaces     Workspace commands group  
 
 **LOGIN**  
 after installation, users should log in with valid credentials first via email and password
