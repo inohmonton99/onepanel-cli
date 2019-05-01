@@ -28,13 +28,13 @@ Commands:
   volume-types   Available volume types
   workspaces     Workspace commands group
 
-**LOGIN**
+**LOGIN**  
 after installation, users should log in with valid credentials first via email and password
 
-**LOGOUT**
+**LOGOUT**  
 Logs the user out of session
 
-**PROJECTS**
+**PROJECTS**  
 [Onepanel CLI projects commands group](https://help.onepanel.io/projects/creating-projects/creating-projects)
 ```
 Commands:
@@ -43,7 +43,7 @@ Commands:
   list    Display a list of all projects.
 ```
 
-**DATASETS**
+**DATASETS**  
 [Onepanel CLI datasets commands group](https://help.onepanel.io/datasets)
 ```
 Commands:
@@ -54,7 +54,7 @@ Commands:
   push    Push up dataset changes
 ```
 
-**JOBS**
+**JOBS**  
 [Onepanel CLI jobs commands group](https://help.onepanel.io/jobs/creating-jobs)
 ```
 Commands:
@@ -65,7 +65,7 @@ Commands:
   stop    Stop a job
 ```
 
-**WORKSPACES**
+**WORKSPACES**  
 [Workspace commands group](https://help.onepanel.io/workspaces/creating-workspaces)
 ```
 Commands:
@@ -77,7 +77,7 @@ Commands:
   terminate         Terminate the workspace(s) given the uids of the workspace
 ```
 
-**ENVIRONMENTS**
+**ENVIRONMENTS**  
 Commands:
   list  Show available environments
 ```
@@ -96,7 +96,7 @@ image-annotation-0.2.0          CVAT Annotation Tool, Jupyter 5.5.0
 node-red-py3-r3.4.3-node0.18.7  R, Python 3, Node-RED
 ```
 
-**VOLUME-TYPES**
+**VOLUME-TYPES**  
 Commands:
   list  Show available volume types and their IDs
 ```
