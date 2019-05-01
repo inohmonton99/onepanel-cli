@@ -77,9 +77,9 @@ Commands:
 ```
 
 **ENVIRONMENTS**  
+```
 Commands:
   list  Show available environments
-```
 Output:
 ID                              ENVIRONMENT
 jupyter-py3-tensorflow1.11.0    Python 3, TensorFlow 1.11.0, Jupyter 5.6.0
@@ -96,9 +96,10 @@ node-red-py3-r3.4.3-node0.18.7  R, Python 3, Node-RED
 ```
 
 **VOLUME-TYPES**  
+```
 Commands:
   list  Show available volume types and their IDs
-```
+
 Output:
 ID                     SPECS
  default-storage-10     10 GB SSD
