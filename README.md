@@ -1,11 +1,11 @@
 # ONEPANEL-CLI ver. 2.12.16
 
-## Installation:
+## INSTALLATION
 ```
 pip install -UI onepanel
 ```
 
-**USAGE**  
+## USAGE  
 ```
 Options:  
   --version  Show the version and exit.  
