@@ -39,7 +39,7 @@ Logs the user out of session
 
 **PROJECTS**  
 Projects are the highest level container and are the first thing you will need to create to get started.  
-[For more info about Projects, CLICK HERE...](https://help.onepanel.io/projects/creating-projects/creating-projects)
+[more info about Projects](https://help.onepanel.io/projects/creating-projects/creating-projects)
 ```
 Commands:
   create  Create project in new directory.
@@ -50,7 +50,7 @@ Commands:
 **DATASETS**  
 Datasets are version controlled containers that can store more than 100Gb of data(can either be images or text files)
  - Datasets use AWS and git-lfs to store data, for full guide with AWS please click this [link.](https://help.onepanel.io/datasets/creating-datasets-from-aws-s3)  
-[For more info about Datasets, CLICK HERE...](https://help.onepanel.io/datasets/creating-datasets)
+[more info about Datasets](https://help.onepanel.io/datasets/creating-datasets)
 ```
 Commands:
   create  Create dataset in new directory.
@@ -61,7 +61,9 @@ Commands:
 ```
 
 **JOBS**  
-[Onepanel CLI jobs commands group](https://help.onepanel.io/jobs/creating-jobs)
+Jobs are great for testing different aspects of a model (i.e., training on different versions of a dataset for a model that may include different labeling parameters).  
+  - **Note:** Jobs can only execute code that is committed into the "Code" repository.
+[more info about Jobs](https://help.onepanel.io/jobs/creating-jobs)
 ```
 Commands:
   create  Execute a command on a remote machine in the current project
