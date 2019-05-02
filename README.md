@@ -64,7 +64,7 @@ Commands:
 Jobs are great for testing different aspects of a model (i.e., training on different versions of a dataset for a model that may include different labeling parameters).  
 Jobs run in different containers as against workspaces  
 Jobs can run in parallel this means:
-  - users can run training at the same time with different environment and different parameters, this greatly helps hasten users find the best model when training, specially with large datasets.
+  - users can run training at the same time with different environment and different parameters, this greatly helps hasten users find the best model when training, specially with large datasets.  
 Jobs also automatically pulls out the latest code when ran  
 To save your models and any other output, save your data to /onepanel/output, for full guide please refer to this [link](https://help.onepanel.io/jobs/job-output)  
 Job command chaining is also available, you can find more information thru this [link](https://help.onepanel.io/jobs/job-command-chaining)  
