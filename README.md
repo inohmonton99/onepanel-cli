@@ -67,7 +67,7 @@ Jobs run in different containers with workspaces, but pulls out the latest updat
   - Job command chaining is also available, you can find more information thru this [link](https://help.onepanel.io/jobs/job-command-chaining)
   - Jobs also provides visualizations while training with Tensorboard, for full information you can follow this [link](https://help.onepanel.io/jobs/tensorboard-visualizations-in-jobs)
 
-**Note:** Jobs can only execute code that is committed into the "Code" repository.
+**Note:** Jobs can only execute code that is committed into the "Code" repository.  
 [more info about Jobs](https://help.onepanel.io/jobs/creating-jobs)
 ```
 Commands:
