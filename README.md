@@ -48,6 +48,7 @@ Commands:
 ```
 
 **DATASETS**  
+Users can create datasets from local machine using the command <onepanel datasets create 'dataset_name'> or initiate a folder as a dataset by using <onepanel datasets init> then running <onepanel push> to push in account dataset repository.  
 Datasets are version controlled containers that can store more than 100Gb of data(can either be images or text files)
  - Datasets use AWS and git-lfs to store data, for full guide with AWS please click this [link.](https://help.onepanel.io/datasets/creating-datasets-from-aws-s3)  
 [more info about Datasets](https://help.onepanel.io/datasets/creating-datasets)
@@ -61,8 +62,8 @@ Commands:
 ```
 
 **JOBS**  
+User can create / run jobs with CLI.  
 Jobs are great for testing different aspects of a model (i.e., training on different versions of a dataset for a model that may include different labeling parameters).  
-Jobs run in different containers as against workspaces  
 Job command chaining is also available, you can find more information thru this [link](https://help.onepanel.io/jobs/job-command-chaining)  
 Jobs also provides visualizations while training with Tensorboard. For full guide you can refer to this [link](https://help.onepanel.io/jobs/tensorboard-visualizations-in-jobs)  
 Jobs can run in parallel which means:
@@ -85,7 +86,9 @@ Commands:
 ```
 
 **WORKSPACES**  
-[Workspace commands group](https://help.onepanel.io/workspaces/creating-workspaces)
+Workspaces are version controlled docker instances that can contain source code, libraries & dependencies, and environment settings.    
+You can also collaborate on workspaces with other users by adding members to your project.
+[more info about Workspaces](https://help.onepanel.io/workspaces/creating-workspaces)
 ```
 Commands:
   create            Create a new workspace.
