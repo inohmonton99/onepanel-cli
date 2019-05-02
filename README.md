@@ -97,6 +97,8 @@ Commands:
 ```
 
 **ENVIRONMENTS**  
+Below are all the available environment Onepanel can provide, from Tensorflow to H2O, users have a variety of options to use when creating models or scripts for their project, these are all available with both workspaces and jobs.  
+for information with pricing for types of environment you can refer to this [link](https://www.onepanel.io/pricing#compute-storage-pricing)
 ```
 Commands:
   list  Show available environments
@@ -117,6 +119,8 @@ node-red-py3-r3.4.3-node0.18.7  R, Python 3, Node-RED
 ```
 
 **VOLUME-TYPES**  
+Volume-types provides users information as to how much storage they can use when they run workspaces for their projects, this can either be used for datasets, large data files, images, etc.  
+for information with pricing for different SSD volumes you can refer to this [link](https://www.onepanel.io/pricing#compute-storage-pricing)
 ```
 Commands:
   list  Show available volume types and their IDs
