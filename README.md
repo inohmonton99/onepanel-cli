@@ -29,12 +29,17 @@ Commands:
 
 **LOGIN**  
 after installation, users should log in with valid credentials first via email and password
+  - after users logs in, user will be able to check available projects with cli
+  - while logged in users can also create, delete, clone projects / workspaces / datasets under their account with cli
+  - users can push changes to repository by using 'onepanel push' command.
+  - users also has access to jobs for parallel training, for more info about jobs please go to JOBS article
 
 **LOGOUT**  
 Logs the user out of session
 
 **PROJECTS**  
-[Onepanel CLI projects commands group](https://help.onepanel.io/projects/creating-projects/creating-projects)
+Projects are the highest level container and are the first thing you will need to create to get started.  
+[Click here for more info](https://help.onepanel.io/projects/creating-projects/creating-projects)
 ```
 Commands:
   create  Create project in new directory.
