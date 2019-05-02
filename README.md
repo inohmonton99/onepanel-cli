@@ -63,12 +63,16 @@ Commands:
 **JOBS**  
 Jobs are great for testing different aspects of a model (i.e., training on different versions of a dataset for a model that may include different labeling parameters).  
 Jobs run in different containers as against workspaces  
-Jobs can run in parallel this means:
-  - users can run training at the same time with different environment and different parameters, this greatly helps hasten users find the best model when training, specially with large datasets.  
-Jobs also automatically pulls out the latest code when ran  
-To save your models and any other output, save your data to /onepanel/output, for full guide please refer to this [link](https://help.onepanel.io/jobs/job-output)  
+Jobs automatically pulls out the latest code when ran  
 Job command chaining is also available, you can find more information thru this [link](https://help.onepanel.io/jobs/job-command-chaining)  
-Jobs also provides visualizations while training with Tensorboard, for full information you can follow this [link](https://help.onepanel.io/jobs/tensorboard-visualizations-in-jobs)  
+Jobs also provides visualizations while training with Tensorboard. For full guide you can refer to this [link](https://help.onepanel.io/jobs/tensorboard-visualizations-in-jobs)  
+Jobs can run in parallel which means:
+  - users can run training at the same time with different environments, this way users can assess which environment suits the model for better performance
+  - jobs trained in parallel can have different parameters, this greatly helps hasten users find the best model when training, specially with large datasets.
+  - this also provide output files while training(if checkpoints are added to code) and after training.  
+  To save your models and any other output, save your data to /onepanel/output.  
+  For full guide please refer to this [link](https://help.onepanel.io/jobs/job-output)  
+
 
 **Note:** Jobs can only execute code that is committed into the "Code" repository.  
 [more info about Jobs](https://help.onepanel.io/jobs/creating-jobs)
