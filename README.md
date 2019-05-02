@@ -62,8 +62,10 @@ Commands:
 
 **JOBS**  
 Jobs are great for testing different aspects of a model (i.e., training on different versions of a dataset for a model that may include different labeling parameters).  
-Jobs run in different containers as against workspaces, jobs automatically pulls out the latest code when ran, jobs can run in parallel which is very efficient when testing different parameters.  
-  - To save your models and any other output, save your data to /onepanel/output, for full guide and visuals please refer to this [link](https://help.onepanel.io/jobs/job-output)
+Jobs run in different containers as against workspaces  
+Jobs also automatically pulls out the latest code when ran  
+Jobs can run in parallel which is very efficient when testing different parameters.  
+  - To save your models and any other output, save your data to /onepanel/output, for full guide please refer to this [link](https://help.onepanel.io/jobs/job-output)
   - Job command chaining is also available, you can find more information thru this [link](https://help.onepanel.io/jobs/job-command-chaining)
   - Jobs also provides visualizations while training with Tensorboard, for full information you can follow this [link](https://help.onepanel.io/jobs/tensorboard-visualizations-in-jobs)
 
