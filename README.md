@@ -39,7 +39,7 @@ Logs the user out of session
 
 **PROJECTS**  
 Projects are the highest level container and are the first thing you will need to create to get started.  
-[Click here for more info...](https://help.onepanel.io/projects/creating-projects/creating-projects)
+[For more info about Projects, CLICK HERE...](https://help.onepanel.io/projects/creating-projects/creating-projects)
 ```
 Commands:
   create  Create project in new directory.
@@ -48,9 +48,9 @@ Commands:
 ```
 
 **DATASETS**  
-Datasets are version controlled containers that can store more than 100Gb of data
- - we sit on top of AWS, for full guide you can go to this [link](https://help.onepanel.io/datasets/creating-datasets-from-aws-s3)
-[Click here for more info about Datasets...](https://help.onepanel.io/datasets/creating-datasets)
+Datasets are version controlled containers that can store more than 100Gb of data(can either be images or text files)
+ - Datasets use AWS and git-lfs to store data, for full guide with AWS please click this [link.](https://help.onepanel.io/datasets/creating-datasets-from-aws-s3)  
+[For more info about Datasets, CLICK HERE...](https://help.onepanel.io/datasets/creating-datasets)
 ```
 Commands:
   create  Create dataset in new directory.
