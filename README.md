@@ -144,3 +144,15 @@ ID                     SPECS
  default-storage-5000   5 TB SSD
  default-storage-10000  10 TB SSD
 ```
+**MACHINE-TYPES**
+Machine type command provides user an overview for available CPU/GPU machines that Onepanel can provide, together with how much they are billed on an hour basis.
+```
+Commands:
+  list  Show available machine types
+  
+ ID              SPECS
+ cpu-2-8         CPU: 2, RAM: 8GB ($0.112/hr)
+ cpu-8-32        CPU: 8, RAM: 32GB ($0.446/hr)
+ gpu-4-26-1k80   GPU: 1 (Tesla K80), CPU: 4, RAM: 26GB ($0.750/hr)
+ gpu-8-52-1v100  GPU: 1 (Tesla V100), CPU: 8, RAM: 52GB ($3.226/hr) 
+```
