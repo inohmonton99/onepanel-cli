@@ -144,8 +144,8 @@ ID                     SPECS
  default-storage-5000   5 TB SSD
  default-storage-10000  10 TB SSD
 ```
-**MACHINE-TYPES**
-Machine type command provides user an overview for available CPU/GPU machines that Onepanel can provide, together with how much they are billed on an hour basis.
+**MACHINE-TYPES**  
+Machine type command provides user an overview for available CPU/GPU machines that Onepanel can provide, together with how much they are billed in a hour basis.
 ```
 Commands:
   list  Show available machine types
