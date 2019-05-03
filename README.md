@@ -39,7 +39,7 @@ Logs the user out of session
 
 **PROJECTS**  
 Projects are the highest level container and are the first thing you will need to create to get started.  
-[more info about Projects](https://help.onepanel.io/projects/creating-projects/creating-projects)
+[https://help.onepanel.io/projects/creating-projects/creating-projects](https://help.onepanel.io/projects/creating-projects/creating-projects)
 ```
 Commands:
   create  Create project in new directory.
@@ -51,7 +51,7 @@ Commands:
 Users can create datasets from local machine using the command <onepanel datasets create 'dataset_name'> or initiate a folder as a dataset by using <onepanel datasets init> then running <onepanel push> to push in account dataset repository.  
 Datasets are version controlled containers that can store more than 100Gb of data(can either be images or text files)
  - Datasets use AWS and git-lfs to store data, for full guide with AWS please click this [link.](https://help.onepanel.io/datasets/creating-datasets-from-aws-s3)  
-[more info about Datasets](https://help.onepanel.io/datasets/creating-datasets)
+[https://help.onepanel.io/datasets/creating-datasets](https://help.onepanel.io/datasets/creating-datasets)
 ```
 Commands:
   create  Create dataset in new directory.
@@ -75,7 +75,7 @@ Jobs can run in parallel which means:
 
 
 **Note:** Jobs can only execute code that is committed into the "Code" repository.  
-[more info about Jobs](https://help.onepanel.io/jobs/creating-jobs)
+[https://help.onepanel.io/jobs/creating-jobs](https://help.onepanel.io/jobs/creating-jobs)
 ```
 Commands:
   create  Execute a command on a remote machine in the current project
@@ -88,7 +88,7 @@ Commands:
 **WORKSPACES**  
 Workspaces are version controlled docker instances that can contain source code, libraries & dependencies, and environment settings.    
 You can also collaborate on workspaces with other users by adding members to your project.
-[more info about Workspaces](https://help.onepanel.io/workspaces/creating-workspaces)
+[https://help.onepanel.io/workspaces/creating-workspaces](https://help.onepanel.io/workspaces/creating-workspaces)
 ```
 Commands:
   create            Create a new workspace.
