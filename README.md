@@ -77,12 +77,12 @@ Jobs can run in parallel which means:
 **Note:** Jobs can only execute code that is committed into the "Code" repository.  
 [https://help.onepanel.io/jobs/creating-jobs](https://help.onepanel.io/jobs/creating-jobs)
 ```
-Commands:
-  create  Execute a command on a remote machine in the current project
-  delete  Delete a job
-  list    Show commands executed on remote machines
-  logs    Show a log of the command
-  stop    Stop a job
+Options:
+  -m, --machine-type TEXT         Machine type ID. Call "onepanel machine-
+                                  types list" for IDs.  [required]
+  -e, --environment TEXT          Instance template ID. Call "onepanel
+                                  environments list" for IDs.  [required]
+  -s, --storage TEXT              Storage type ID.  [required]
 ```
 
 **WORKSPACES**  
